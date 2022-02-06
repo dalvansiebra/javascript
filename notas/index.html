@@ -123,5 +123,115 @@
             <li>n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) // colocar o símbolo de Dólar</li>
             <li>n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) // colocar o símbolo de Euro</li>
         </ul>
+
+        <h2>Aula 07</h2>
+
+        <h3>OPERADORES PARTE 01</h3>
+
+        <ul> Tipos de Operadores
+            <li>aritméticos</li>
+            <li>atribuição</li>
+            <li>relacionais</li>
+            <li>lógicos</li>
+            <li>ternário</li>
+        </ul>
+
+        <p>Operadores aritimédticos são usados para fazer cálculo</p>
+        <ul>
+            <li>+ adição
+                <p>serve para adição, por ex: 5 + 2 = 7</p>
+            </li>
+            <li>- subtração
+                <p>serve para subtração, por ex: 5 - 2 = 3</p>
+            </li>
+            <li>* multiplicação
+                <p>serve para multiplicação, por ex: 5 * 2 = 10</p>
+            </li>
+            <li>/ divisão real
+                <p>serve para divisão real, por ex: 5 / 2 = 2.5</p>
+            </li>
+            <li>% resto da divisão
+                <p>mostra o resto da divisão inteira, por ex: 5 % 2 = 1</p>
+            </li>
+            <li>** potência
+                <p>serve para elevar a potência, por ex: 5 ** 2 = 25</p>
+            </li>
+        </ul>
+
+        <p>Precedência de operadores</p>
+        <p>Por ex: 5 + 3 / 2 = 6.5</p>
+        <p>Ordem de precedência</p>
+        <ol>
+            <li>(); // o que tiver entre parênteses</li>
+            <li>**; // potências</li>
+            <li>* / %; // multiplicação, divisão, resto da divisão. Quem aparecer primeiro</li>
+            <li>+ -; // adição e subtração</li>
+        </ol>
+
+        <p>Atribuições simples</p>
+        <ul> var n = 3
+            <li>n = n + 4 resultado: 7</li>
+            <li>n = n - 5 resultado: 2</li>
+            <li>n = n * 4 resultado: 8</li>
+            <li>n = n / 2 resultado: 4</li>
+            <li>n = n ** 2 resultado: 16</li>
+            <li>n = n % 5 resultado: 1</li>
+        </ul>
+
+        <p>Simplificando</p>
+        <ul> var n = 3
+            <li>n = n + 4 resultado: 7 // agora fica n += 4</li>
+            <li>n = n - 5 resultado: 2 // agora fica n -= 4</li>
+            <li>n = n * 4 resultado: 8 // agora fica n *= 4</li>
+            <li>n = n / 2 resultado: 4 // agora fica n /= 4</li>
+            <li>n = n ** 2 resultado: 16 // agora fica n **= 4</li>
+            <li>n = n % 5 resultado: 1 // agora fica n %= 4</li>
+        </ul>
+
+        <h2>Aula 08</h2>
+
+        <h3>OPERADORES PARTE 02</h3>
+
+        <p>Operadores relacionais</p>
+        <p>O resultado de toda operação relacional será resultado boleano, true ou false</p>
+
+        <ul>
+            <li>> maior que <strong>(5 > 2 true)</strong></li>
+            <li>< menor que <strong>(7 < 4 false)</strong></li>
+            <li>>= maio ou igual <strong>(8 >= 8 true)</strong></li>
+            <li><= menor ou igual <strong>(9 <= 7 false)</strong></li>
+            <li>== igual <strong>(5 == 5 true)</strong></li>
+            <li>!= diferente <strong>(4 != 4 false)</strong></li>
+        </ul>
+
+        <p>Operadores de identidade, verifica se é do mesmo valor e do mesmo tipo</p>
+        <ul>
+            <li>5 == 5 true</li>
+            <li>5 == '5' true</li>
+            <li>5 === '5' false // estritamente igual</li>
+            <li>5 === 5 true</li>
+        </ul>
+
+        <p>Operadores Lógicos</p>
+        <ul>
+            <li>! negação/oposição</li>
+            <li>&& conjunção/e</li>
+            <li>|| fisjunção/ou</li>
+        </ul>
+        <ul>
+            <li>! true = false</li>
+            <li>! false = true</li>
+            <li>true && true = true</li>
+            <li>true && false = false</li>
+            <li>false && true = false</li>
+            <li>false && false = false</li>
+            <li>true || true = true</li>
+            <li>true || false = true</li>
+            <li>false || true = true</li>
+            <li>false || false = false</li>
+        </ul>
+
+        <p>Operador ternário</p>
+        <p>Apresentam dois simbolos ? e :</p>
 </body>
 </html>
