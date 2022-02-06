@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +7,8 @@
     <title>Document</title>
     <style>
         body {
-            font: normal 20pt Georgia;
+            font: normal 20pt Arial;
         }
-        
-
     </style>
 </head>
 <body>
@@ -18,8 +16,9 @@
 
     <script>
         var nome = window.prompt('Qual é o seu nome?')
-        document.writeln(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras. <br/>`)
-        document.writeln(`Seu nome em maúscilas é ${nome.toUpeprCase()}`)
+        document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras. <br/>`)
+        document.write(`Seu nome em maiúsculas é ${nome.toLocaleUpperCase()} <br/>`)
+        document.write(`Seu nome em minúsculas é ${nome.toLocaleLowerCase()} <br/>`)
 
     </script>
 </body>

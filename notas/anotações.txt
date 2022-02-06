@@ -2,7 +2,7 @@ MÓDULO A
 
 <Aula 04>
 
-_Criando seu primeiro script_
+_CRIANDO SEU PRIMEIRO SCRIPT_
 
 window.alert('Minha primeira mensagem!') // Janela com menssagen, botão OK
 
@@ -12,7 +12,7 @@ window.prompt('Qual é o seu nome?') // Janela com menssgen e campo para escreve
 
 <Aula 06>
 
-_Variáveis e tipos primitivos_
+_VARIÁVEIS E TIPOS PRIMITIVOS_
 
 Dois tipos de coloca comentários em JS.
 // Em uma única linha
@@ -38,3 +38,21 @@ Regras para identificar variáveis:
 *É possivel usa acentos e símbolos
 *Não podem conter estaços //Substituir por _
 *Não podem ser palavras reservadas //Comandos do JS
+*Letras maiúscilas e minpusculas fazem diferença
+*Tente utilizar nomes coerentes para as variáveis, ex: nome = nome, idade = idade, telefone = telefone
+
+TIPOS DE DADOS: DATA TYPES
+<>number
+    infinity
+    NaN
+<>string
+<>bolean
+<>null
+<>undefined
+<>object
+    Aray(vetor)
+<>function
+
+Para identificar o tipo, basca colocar:
+typeof = var
+typeof = n1

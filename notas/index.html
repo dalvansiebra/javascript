@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+    </style>
+    <title>Anotações do Curso de JavaScript do CursoEmVideo</title>
+</head>
+<body>
+    <h1>MÓDULO A</h1>
+        <h2>Aula 04</h2>
+        
+        <h3>CRIANDO SEU PRIMEIRO SCRIPT</h3>
+
+        <p>window.alert('Minha primeira mensagem!') // Janela com menssagen, botão OK</p>
+        <p>window.confirm('Está gostando de JS?') // Janela com menssagen, botão OK e botão cancel</p>
+        <p>window.prompt('Qual é o seu nome?') // Janela com menssgen e campo para escrever algo, com botão ok e botão cancel</p>
+
+        <h2>Aula 05</h2>
+
+        <h3>VARIÁVEIS E TIPOS PRIMITIVOS</h3>
+
+        <p>
+        Dois tipos de colocar comentários em JS. <br>
+        // Em uma única linha <br>
+        /* <br>
+        Em mais de uma linha <br>
+        */
+        </p>
+
+        <p>
+            Imagine vagas de estacionamento devidamente identificadas "a1, a2, a3, a4". Cada vaga representa uma varial. Para colocar um carro em uma vaga.
+            <ul>
+                <li>var a1 = carro1 
+                <li>var a2 = carro2 
+                <li>var a3 = null //Significa que a variável está nula 
+                <li>No JS o sinal de "=" significa "recebe".
+                <li>Colcar valores dentro de variáveis significa "atribuição".
+                <li>Para colocar texto, colocar ",' ou `.
+            </ul>
+        </p>
+
+        <p>
+            Regras para identificar variáveis:
+            <ul>
+            <li>*Podem começar com letra, $ ou _
+            <li>*Não podem começar com números
+            <li>*É possovel usar letras ou números
+            <li>*É possivel usa acentos e símbolos
+            <li>*Não podem conter estaços //Substituir por _
+            <li>*Não podem ser palavras reservadas //Comandos do JS
+            <li>*Letras maiúscilas e minpusculas fazem diferença
+            <li>*Tente utilizar nomes coerentes para as variáveis, ex: nome = nome, idade = idade, telefone = telefone
+            </ul>
+        </p>
+
+        <h3>TIPOS DE DADOS: DATA TYPES</h3>
+        <ul>
+            <li>number
+                <ul>
+                    <li>infinity
+                    <li>NaN   
+                </ul>
+            <li>string
+            <li>bolean
+            <li>null
+            <li>undefined
+            <li>object
+                <ul>
+                    <li>Aray(vetor) 
+                </ul>
+            <li>function
+        </ul>
+
+        <p>Para identificar o tipo, basca colocar:</p>
+        <ul>
+            <li>typeof = var</li>
+            <li>typeof = n1</li>
+        </ul>
+
+        <h2>Aula 06</h2>
+
+        <h3>TRATAMENTO DE DADOS</h3>
+
+        <p>Conversão de string para number</p>
+        <ul>
+            <li>var n1 = window.prompt('Digite um número.')</li>
+            <li>var n2 = Number(window.prompt('Digite outro número.'))</li>
+        </ul>
+        <p>O comando window.prompt retorna uma string, precisamos converter em number</p>
+        <p>Podemos utilizar três formas antes do comando:</p>
+        <ul>
+            <li>Number.parseInt(n) // Números inteiros</li>
+            <li>Number.parseFloat(n) //Números flutuantes/reais</li>
+            <li>Number // O JS identifica se é inteiro ou real </li>
+        </ul>
+
+        <p>Conversão de number para string</p>
+        <ul>
+            <li>String(n)</li>
+            <li>n.toString()</li>
+        </ul>
+
+        <p>Formatando Strings</p>
+        <ul>var s = 'JavaScript'
+            <li>'Eu estou aprendendo s' // não faz interpolação</li>
+            <li>'Eu estou aprendendo' + s // usa interpolação</li>
+            <li>`Eu estou aprendendo ${s}` // usa template string, tem que ser com cráse</li>
+            <li>s.length // quantos caracteres a string tem</li>
+            <li>s.toUpperCase() // tudo para 'MAIÚSCULAS'</li>
+            <li>S.toLowerCase() // tudo para 'minúsculas'</li>
+        </ul>
+        <p>Formatando Numbers</p>
+        <ul>
+            <li>n1.toFixed(2) // colocar duas casas decimais</li>
+            <li>n1.toFixed(2).replace('.', ',') // trocar o . pela ,</li>
+            <li>n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) // colocar o símbolo de Real</li>
+            <li>n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) // colocar o símbolo de Dólar</li>
+            <li>n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) // colocar o símbolo de Euro</li>
+        </ul>
+</body>
+</html>
