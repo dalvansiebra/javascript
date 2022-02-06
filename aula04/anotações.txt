@@ -1,0 +1,40 @@
+MÓDULO A
+
+<Aula 04>
+
+_Criando seu primeiro script_
+
+window.alert('Minha primeira mensagem!') // Janela com menssagen, botão OK
+
+window.confirm('Está gostando de JS?') // Janela com menssagen, botão OK e botão cancel
+
+window.prompt('Qual é o seu nome?') // Janela com menssgen e campo para escrever algo, com botão ok e botão cancel
+
+<Aula 06>
+
+_Variáveis e tipos primitivos_
+
+Dois tipos de coloca comentários em JS.
+// Em uma única linha
+/*
+Em mais de uma linha
+*/
+
+Imagine vagas de estacionamento devidamente identificadas "a1, a2, a3, a4". Cada vaga representa uma varial. Para colocar um carro em uma vaga.
+
+var a1 = carro1
+var a2 = carro2
+var a3 = null //Significa que a variável está nula
+
+No JS o sinal de "=" significa "recebe".
+Colcar valores dentro de variáveis significa "atribuição".
+
+Para colocar texto, colocar ",' ou `.
+
+Regras para identificar variáveis:
+*Podem começar com letra, $ ou _
+*Não podem começar com números
+*É possovel usar letras ou números
+*É possivel usa acentos e símbolos
+*Não podem conter estaços //Substituir por _
+*Não podem ser palavras reservadas //Comandos do JS
