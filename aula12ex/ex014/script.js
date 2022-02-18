@@ -9,7 +9,7 @@ function carregar() {
     var hora = data.getHours()
     var minuto = data.getMinutes()
     var segundo = data.getSeconds()
-    msg.innerHTML = `Agora são ${hora}:${minuto}:${segundo}`
+    msg.innerHTML = `Agora são ${hora}:${minuto}:${segundo}.`
     if (hora >= 0 && hora < 12) {
         //BOM DIA
         img.src = 'fotomanha.jpg'
