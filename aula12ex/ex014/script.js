@@ -1,6 +1,4 @@
-var intervald = window.setInterval(() => {carregar()
-        
-},1000);
+var intervald = window.setInterval(() => {carregar()},1000);
 
 function carregar() {
     var msg = window.document.getElementById('msg')
