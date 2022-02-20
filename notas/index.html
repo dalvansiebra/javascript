@@ -342,7 +342,7 @@
         <ul>
             <li>Condições Simples</li>
             <li>Condições Compostas</li>
-            <li>Condições Alinhadas</li>
+            <li>Condições Aninhadas</li>
             <li>Condições Múltiplas</li>
         </ul>
 
@@ -417,16 +417,45 @@
         <h2>Exercícios</h2>
 
         <h1>MÓDULO E</h1>
-        <h2>Aula 11</h2>
+        <h2>Aula 13</h2>
         
-        <h3>CONDIÇÕES</h3>
+        <h3>REPETIÇÕES</h3>
 
         <ul>
-            <li>Condições Simples</li>
-            <li>Condições Compostas</li>
-            <li>Condições Alinhadas</li>
-            <li>Condições Múltiplas</li>
+            <li>Repetições com teste no início</li>
+            <li>Repetições com teste no final</li>
+            <li>Repetições com controle</li>
+            <li>Exercícios propostos</li>
         </ul>
+
+        <h3>REPETIÇÕES COM TESTE LÓGICO NO INÍCIO</h3>
+        <p>Testa e depois executa o bloco.</p>
+
+        var c = 1
+        while (c <= 6) {
+            console.log(`Passo ${c}`)
+            c++ // c = c + 1
+        }
+
+        
+        <h3>REPETIÇÕES COM TESTE LÓGICO NO FINAL</h3>
+        <p>Executa o bloco e depois testa.</p>
+
+        var c = 1
+        do {
+            console.log(`Passo ${c}`)
+            c++ // c = c + 1
+        } while (c <= 6)
+
+
+        <h3>REPETIÇÕES COM VARIÁVEL DE CONTROLE</h3>
+        <p>No exágono irregular, basicamente nesse exágono são feitas 3 coisas, a inicialização o teste lógico e o incremento.</p>
+
+        <p>for (inicio; teste; incr){<br><br>}</p>
+
+        <p>for (var c = 1; c <= 10; c++){<br><br>}</p>
+
+
 
 </body>
 </html>
